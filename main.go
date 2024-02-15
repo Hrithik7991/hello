@@ -33,5 +33,5 @@ func main() {
 	// use true in the last parameter to receive reports about the learning error
 	ff.Train(patterns, 1000, 0.6, 0.4, true)
 	time.Sleep(time.Second * 2)
-	ff.Test(patterns)
+	ff.Test(patterns) // end
 }
